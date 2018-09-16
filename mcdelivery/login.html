@@ -1,0 +1,42 @@
+<html>
+    <head>
+		<title>MCdelivery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+    <body>
+        <header id="header">
+    		<a href="index.php" class="logo"><strong>맥딜리버리</strong> by HTML5 UP</a>
+			<ul class="icons">
+			</ul>
+    	</header>
+        <form method="post" action="php_file/login_ok.php">
+            <h1>로그인</h1>
+            <div>
+				<div class="5u 12u$(xsmall)">
+    				<input type="email" name="email" id="email" value="" placeholder="Email" />
+                    <br>  
+				</div>
+                <div class="7u$ 12u$(xsmall)">
+				</div>
+            </div>
+            <div>
+				<div class="5u$ 12u$(xsmall)">
+					<input type="password" name="pw" id="pw" value="" placeholder="password" />
+                    <br>  
+				</div>
+                <div class="7u$ 12u$(xsmall)">
+				</div>
+            </div>              
+            <p>아이디가 없으시면 <a href="submit.php">회원가입</a>을 해주세요</P>
+            <ul class="actions">
+			    <h2><li><input type="submit" class="button special small" value="로그인"/></li>
+		    	<li><a href="index.php"><input class="button small" value="취소" /></a></li></h2>
+			</ul>
+		</form>
+    </body>
+</html>
