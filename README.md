@@ -8,6 +8,7 @@ Database based homepage creation
 CSS -> open source
 
 
-Environment : Visual Studio Code
-              MySql
-              NGIX
+Environment : 
+ *     Visual Studio Code
+ *     MySql
+ *     NGIX
